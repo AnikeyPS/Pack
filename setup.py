@@ -1,4 +1,2 @@
 from distutils.core import setup
-setup(name='Pack',
-      version='1.0',
-      )
+setup(name='Utils_pack', version='1.0')
