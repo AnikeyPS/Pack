@@ -1,5 +1,6 @@
 # Utils-pack 1.0
 from requests import request
+import constants
 
 
 def saveimgbyurl(image_url: str, file_name: str):
@@ -10,4 +11,4 @@ def saveimgbyurl(image_url: str, file_name: str):
 
 
 def outstyle(text: str, style_id: int, text_start: str='', text_stop: str=''):
-    return f"{text_start}\033[{str(style_id)}m{text}\033[0m\033[37m{text_stop}"
+    return f"{text_start}\033[{constants.}m{text}\033[0m\033[37m{text_stop}"
