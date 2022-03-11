@@ -1,4 +1,4 @@
-from distutils.core import setup
+from Pack.core import setup
 
 setup(name='Pack',
       version='0.1',
