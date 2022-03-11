@@ -19,3 +19,4 @@ def randomtext(max_signs: int=100):
     text = ''
     for i in range(randint(1, max_signs) + 1):
         text = text + choice(constants.DATA_RANDOMTEXT)
+    return text
