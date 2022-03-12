@@ -1,3 +1,3 @@
 # Pack
-Download in pip:
-pip install https://github.com/AnikeyPS/Pack/archive/main.zip
+Pip: pip install https://github.com/AnikeyPS/Pack/archive/main.zip
+Pack name: Utils-pack
